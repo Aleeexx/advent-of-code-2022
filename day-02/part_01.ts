@@ -59,4 +59,4 @@ const result = data
     return total + shape + win;
   }, 0);
 
-console.dir(result);
+console.log(result);

@@ -71,4 +71,4 @@ const result = data
     return total + myChoiceBonus;
   }, 0);
 
-console.dir(result);
+console.log(result);
