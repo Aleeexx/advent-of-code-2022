@@ -9,4 +9,4 @@ const processed = data
   .map((elf) => elf.reduce((acc, curr) => acc + parseInt(curr), 0))
   .sort((a, b) => b - a);
 
-console.dir(processed[0] + processed[1] + processed[2]);
+console.log(processed[0] + processed[1] + processed[2]);
