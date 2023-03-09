@@ -509,4 +509,3 @@ move 1 from 4 to 6
 move 7 from 8 to 7
 move 3 from 9 to 7
 move 4 from 3 to 4
-
