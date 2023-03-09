@@ -8,7 +8,7 @@ const extractInstruction = (instruction: string) => {
 const data = await fs.readFile("input.txt", "utf8");
 const processed = data.trimEnd().split("\n");
 
-// Get stacks status without enumeration
+// Get stacks status without enumerations
 const stacksString = processed.slice(0, 8);
 // Get instruction strings
 const instructionsString = processed.slice(10);
